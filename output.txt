@@ -1,0 +1,179 @@
+start loading data
+load done, length of dataset: 3423
+start loading data
+load done, length of dataset: 915
+0  gpu 0
+Batch size is: 1 epochs 5000
+Total parameters count 92645806
+Writing Tensorboard logs to  ./runs/test
+0 Thu May 19 04:32:21 2022 Epoch: 0
+
+=== Transform input info -- Orientationd ===
+image statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 1024)
+Value range: (0.0, 174.0)
+label statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 1024)
+Value range: (0.0, 6.0)
+image_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 1024, 'spatial_shape': array([ 512, 1024]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_imgs/Cirrus_TRAIN013_051.jpg'}
+label_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 1024, 'spatial_shape': array([ 512, 1024]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_masks/Cirrus_TRAIN013_051.jpg'}
+
+=== Transform input info -- Orientationd ===
+image statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 885)
+Value range: (0.0, 153.0)
+label statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 885)
+Value range: (0.0, 0.0)
+image_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 885, 'spatial_shape': array([512, 885]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_imgs/Topcon_TRAIN052_055.jpg'}
+label_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 885, 'spatial_shape': array([512, 885]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_masks/Topcon_TRAIN052_055.jpg'}
+
+=== Transform input info -- Orientationd ===
+
+=== Transform input info -- Orientationd ===
+image statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 885)
+Value range: (1.0, 165.0)
+image statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 885)
+Value range: (1.0, 165.0)
+label statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 885)
+Value range: (0.0, 2.0)
+label statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 885)
+Value range: (0.0, 2.0)
+image_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 885, 'spatial_shape': array([512, 885]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_imgs/Topcon_TRAIN052_079.jpg'}
+image_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 885, 'spatial_shape': array([512, 885]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_imgs/Topcon_TRAIN052_079.jpg'}
+label_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 885, 'spatial_shape': array([512, 885]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_masks/Topcon_TRAIN052_079.jpg'}
+label_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 885, 'spatial_shape': array([512, 885]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_masks/Topcon_TRAIN052_079.jpg'}
+
+=== Transform input info -- Orientationd ===
+
+=== Transform input info -- Orientationd ===
+image statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 650)
+Value range: (7.0, 157.0)
+image statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 650)
+Value range: (7.0, 157.0)
+label statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 650)
+Value range: (0.0, 0.0)
+label statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 650)
+Value range: (0.0, 0.0)
+image_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 650, 'spatial_shape': array([512, 650]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_imgs/Topcon_TRAIN058_092.jpg'}
+image_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 650, 'spatial_shape': array([512, 650]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_imgs/Topcon_TRAIN058_092.jpg'}
+label_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 650, 'spatial_shape': array([512, 650]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_masks/Topcon_TRAIN058_092.jpg'}
+label_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 650, 'spatial_shape': array([512, 650]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_masks/Topcon_TRAIN058_092.jpg'}
+
+=== Transform input info -- Orientationd ===
+image statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 496)
+Value range: (0.0, 255.0)
+label statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 496)
+Value range: (0.0, 5.0)
+image_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 496, 'spatial_shape': array([512, 496]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_imgs/Spectralis_TRAIN038_011.jpg'}
+label_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 496, 'spatial_shape': array([512, 496]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_masks/Spectralis_TRAIN038_011.jpg'}
+
+=== Transform input info -- Orientationd ===
+
+=== Transform input info -- Orientationd ===
+
+=== Transform input info -- Orientationd ===
+image statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 1024)
+Value range: (0.0, 180.0)
+image statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 1024)
+Value range: (0.0, 180.0)
+image statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 1024)
+Value range: (0.0, 180.0)
+label statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 1024)
+Value range: (0.0, 5.0)
+label statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 1024)
+Value range: (0.0, 5.0)
+label statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 1024)
+Value range: (0.0, 5.0)
+
+=== Transform input info -- Orientationd ===
+image_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 1024, 'spatial_shape': array([ 512, 1024]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_imgs/Cirrus_TRAIN013_042.jpg'}
+image_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 1024, 'spatial_shape': array([ 512, 1024]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_imgs/Cirrus_TRAIN013_042.jpg'}
+image_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 1024, 'spatial_shape': array([ 512, 1024]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_imgs/Cirrus_TRAIN013_042.jpg'}
+label_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 1024, 'spatial_shape': array([ 512, 1024]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_masks/Cirrus_TRAIN013_042.jpg'}
+label_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 1024, 'spatial_shape': array([ 512, 1024]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_masks/Cirrus_TRAIN013_042.jpg'}
+label_meta_dict statistics:
+Type: <class 'dict'>
+Value: {'format': 'JPEG', 'mode': 'L', 'width': 512, 'height': 1024, 'spatial_shape': array([ 512, 1024]), 'original_channel_dim': 'no_channel', 'filename_or_obj': '/home/vislab/yueyang/graduation_project/UNETR/dataset/pre_processed/oct_masks/Cirrus_TRAIN013_042.jpg'}
+image statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 650)
+Value range: (9.0, 165.0)
+label statistics:
+Type: <class 'numpy.ndarray'>
+Shape: (1, 512, 650)
+Value range: (0.0, 0.0)
