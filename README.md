@@ -176,3 +176,4 @@ If you find this repository useful, please consider citing UNETR paper:
 
 [2] Dosovitskiy, Alexey, et al. "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
 ", 2020. https://arxiv.org/abs/2010.11929.
+# unetr_store
